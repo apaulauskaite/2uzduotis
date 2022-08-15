@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-size: 16px;
+    padding: 20px;
+    background-color: #f5f5f5 ;
+}
+.page>div {
+    padding: 20px;
+}
+.page p{
+    font-family: 'News Cycle', sans-serif;
+    color:  #666;
+    margin-top: 15px;
+    text-align: left;
+    line-height: 19px;
+
+}
+.page h1 {
+    color:#0974b3;
+    text-overflow: none;
+    margin-bottom: -25px;
+    margin-top: -5px;
+    font-family: 'News Cycle', sans-serif;
+
+}
+.isaac {
+    height: 200px;
+    background-color: white;
+    align-items: center;
+    margin-bottom: 25px;
+    height: 330px;
+    width: 865px;
+    border: 2px solid rgb(212, 212, 212, 0.4);
+    border-top: 6px solid #0974b3;    
+  }
+  
+  .albert {
+    float: left; 
+    position:relative;
+    height: 460px;
+    width: 420px;
+    background-color: white;
+    margin-right: 25px;
+    border: 2px solid rgb(212, 212, 212, 0.4);
+    border-top: 6px solid #0974b3;
+  }
+  
+  .tesla {
+    height: 460px;
+    width: 420px;
+    background-color: white;
+    overflow: hidden;
+    border: 2px solid rgb(212, 212, 212, 0.4);
+    border-top: 6px solid #0974b3;
+    }
+  
+  
+ .albert img {
+    object-fit: cover;
+    max-width: 165px;
+    width: 40%;
+    height: 220px;
+    float: left;
+    margin-right: 25px;
+    margin-top: 20px;
+    margin-bottom: 9px;
+  }
+
+  .tesla img {
+    object-fit: cover;
+    max-width: 165px;
+    width: 40%;
+    height: 190px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .isaac img {
+    object-fit: cover;
+    max-width: 145px;
+    width: 40%;
+    height: 195px;
+    float: left;
+    margin-right: 18px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
